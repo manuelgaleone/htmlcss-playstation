@@ -7,8 +7,20 @@ body {
     background-color: black;
 }
 
+.bg_white {
+    background-color: white;
+}
+
+.color_black {
+    color: black;
+}
+
 .d_flex {
     display: flex;
+}
+
+img {
+    max-width: 100%;
 }
 
 .align_items {
@@ -31,3 +43,4 @@ body {
 .logo_header_up {
     width: 100px;
 }
+
