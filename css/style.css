@@ -150,6 +150,26 @@ img {
     background-color: #1F1F1F;
 }
 
+.playstation4 {
+    padding: 25px;
+}
+
+.playstation4_title {
+    font-size: 40px;
+}
+
+.playstation4_caption {
+    font-size: 20px;
+}
+
+.copyright_sign {
+    font-size: 15px;
+}
+
+.playstation4_element_title {
+    font-size: 40px;
+}
+
 @media screen and (min-width:768px) {
     
     .playstation_caption {
