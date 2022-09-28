@@ -197,12 +197,12 @@ img {
  
     .soulstorm {
         display: inline-block;
-        
+
     }
 
 }
 
-@media screen and (min-width:570px) and (max-width:768px) {
+@media screen and (min-width:570px) and (max-width:767px) {
     
     .playstation_caption {
         font-size: 20px;
