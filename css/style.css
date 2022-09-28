@@ -31,6 +31,11 @@ body {
     flex-direction: column;
 }
 
+.margin_auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 img {
     max-width: 100%;
 }
@@ -222,6 +227,28 @@ img {
 
 .socialmedia {
     padding: 25px;
+}
+
+.socialmedia_icons {
+    width: 200px;
+}
+
+/*Footer*/
+footer {
+    background-color: #2D64E6;
+    padding: 50px;
+}
+
+.menu_footer {
+    list-style: none;
+}
+
+.menu_item {
+    text-decoration: none;
+}
+
+.copyright {
+    font-size: 12px;
 }
 
 @media screen and (min-width:768px) and (max-width:1440px) {
