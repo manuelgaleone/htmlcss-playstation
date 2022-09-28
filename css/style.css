@@ -205,9 +205,29 @@ img {
     font-size: 25px;
 }
 
+.playstationnow {
+    background-color: #161C3B;
+}
+
+.playstationnow_button {
+    display: inline-block;
+    background-color: #D9DADC;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    width: 200px;
+    border-radius: 50px;
+    text-align: center;
+}
+
 @media screen and (min-width:768px) and (max-width:1440px) {
  
     .soulstorm {
+        display: inline-block;
+
+    }
+
+    .avengers {
         display: inline-block;
 
     }
@@ -221,6 +241,10 @@ img {
     }
 
     .soulstorm {
+        display: none;
+    }
+
+    .avengers {
         display: none;
     }
 
