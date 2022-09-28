@@ -44,3 +44,29 @@ img {
     width: 100px;
 }
 
+/*Main*/
+.cover {
+    background-image: url(../img/jumbo-bg.png);
+    padding: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cover_elements {
+    padding-top: 300px;
+}
+
+.cover_logo {
+    width: 250px;
+}
+
+.cover_cta_button {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 35px;
+    text-decoration: none;
+    font-size: 15px;
+}
