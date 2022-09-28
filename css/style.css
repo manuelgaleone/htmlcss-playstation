@@ -170,26 +170,46 @@ img {
     font-size: 40px;
 }
 
-@media screen and (min-width:768px) {
+.playstationplus {
+    background-color: #BEBCBB;
+}
+
+.playstationplus_caption {
+    font-size: 20px;
+}
+
+.playstationplus_button {
+    display: inline-block;
+    background-color: #D9DADC;
+    color: #2D64E6;
+    text-decoration: none;
+    padding: 10px;
+    width: 200px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.soulstorm {
+    max-width: 100%;
+}
+
+@media screen and (min-width:768px) and (max-width:1440px) {
+ 
+    .soulstorm {
+        display: inline-block;
+        
+    }
+
+}
+
+@media screen and (min-width:570px) and (max-width:768px) {
     
     .playstation_caption {
         font-size: 20px;
     }
 
-}
-
-@media screen and (min-width:576px) {
-    
-    .playstation_caption {
-        font-size: 20px;
-    }
-
-}
-
-@media screen and (min-width:575.98px) {
-    
-    .playstation_caption {
-        font-size: 22px;
+    .soulstorm {
+        display: none;
     }
 
 }
