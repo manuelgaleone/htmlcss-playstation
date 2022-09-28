@@ -146,6 +146,10 @@ img {
     font-size: 40px;
 }
 
+.nuove_uscite {
+    background-color: #1F1F1F;
+}
+
 @media screen and (min-width:768px) {
     
     .playstation_caption {
