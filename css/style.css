@@ -220,6 +220,10 @@ img {
     text-align: center;
 }
 
+.socialmedia {
+    padding: 25px;
+}
+
 @media screen and (min-width:768px) and (max-width:1440px) {
  
     .soulstorm {
@@ -231,6 +235,7 @@ img {
         display: inline-block;
 
     }
+
 
 }
 
