@@ -1,0 +1,319 @@
+/*General*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg_black {
+    background-color: black;
+}
+
+.bg_white {
+    background-color: white;
+}
+
+.color_black {
+    color: black;
+}
+
+.color_blue {
+    color: #2D64E6;
+}
+
+.color_gray {
+    color: gray;
+}
+
+.d_flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.margin_auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.align_items {
+    align-items: center;
+}
+
+.color_white {
+    color: white;
+}
+
+.margin_left_auto {
+    margin-left: auto;
+}
+
+/*Header*/
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+}
+
+.header_up {
+    padding: 5px;
+}
+
+.logo_header_up {
+    width: 100px;
+}
+
+.nav-link::after {
+    display: none;
+}
+
+.gray_arrow {
+    width: 10px;
+}
+
+.blue_arrow {
+    display: none;
+    width: 10px;
+}
+
+/*Main*/
+.cover_section {
+    padding-top: 90px;
+}
+
+.cover {
+    background-image: url(../img/jumbo-bg.png);
+    padding: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cover_elements {
+    padding-top: 300px;
+}
+
+.cover_logo {
+    width: 250px;
+}
+
+.cover_cta_button {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 35px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.thumb_section {
+    padding: 25px;
+}
+
+.thumb_img {
+    border: 4px solid #2D64E6;
+}
+
+.playstation_section {
+    padding: 30px;
+}
+
+.playstation_header {
+    padding-top: 50px;
+}
+
+.playstation_subtitle {
+    font-weight: 600;
+}
+
+.playstation_caption {
+    font-size: 16px;
+    padding-top: 25px;
+}
+
+.consolle_title {
+    font-size: 45px;
+}
+
+.consolle_caption {
+    font-size: 15px;
+}
+
+.more_info_button {
+    display: inline-block;
+    padding: 5px;
+    width: 175px;
+}
+
+.thumb_name {
+    font-size: 13px;
+}
+
+.thumb_disabled {
+    opacity: 0.6;
+}
+
+.active_rectangle_bottom {
+    border-bottom: 2px solid #2D64E6;
+}
+
+.takes {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    padding: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.takes_title {
+    font-size: 40px;
+}
+
+.nuove_uscite {
+    background-color: #1F1F1F;
+}
+
+.playstation4 {
+    padding: 25px;
+}
+
+.playstation4_title {
+    font-size: 40px;
+}
+
+.playstation4_caption {
+    font-size: 20px;
+}
+
+.copyright_sign {
+    font-size: 15px;
+}
+
+.playstation4_element_title {
+    font-size: 40px;
+}
+
+.playstationplus {
+    background-color: #BEBCBB;
+}
+.playstationplus_caption {
+    font-size: 20px;
+}
+.playstationplus_button {
+    display: inline-block;
+    background-color: #D9DADC;
+    color: #2D64E6;
+    text-decoration: none;
+    padding: 10px;
+    width: 200px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.soulstorm {
+    max-width: 100%;
+}
+
+.nuovisconti {
+    padding: 25px;
+}
+
+.nuovisconti_title {
+    font-size: 40px;
+}
+
+.nuovisconti_caption {
+    font-size: 25px;
+}
+
+.playstationnow {
+    background-color: #161C3B;
+}
+
+.playstationnow_button {
+    display: inline-block;
+    background-color: #D9DADC;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    width: 200px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.socialmedia {
+    padding: 25px;
+}
+
+.socialmedia_icons {
+    width: 200px;
+}
+
+/*Footer*/
+footer {
+    background-color: #2D64E6;
+    padding: 50px;
+}
+
+.menu_footer {
+    list-style: none;
+}
+
+.menu_item {
+    text-decoration: none;
+}
+
+.copyright {
+    font-size: 12px;
+}
+
+/*Effects*/
+.nav-link:hover > .blue_arrow {
+    display: inline-block;
+
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){
+    
+    .playstationplus_elements {
+        padding: 0;
+    }
+
+    .playstationplus_logo {
+        width: 200px;
+    }
+
+    .playstationplus_caption {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+    
+    .playstationplus_elements {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .playstationplus_logo {
+        width: 200px;
+    }
+
+    .playstationplus_caption {
+        font-size: 15px;
+    }
+
+    .playstationplus_button {
+        width: 150;
+        padding: 5px;
+        font-size: 13px;
+    }
+
+}
