@@ -398,6 +398,11 @@ footer {
 
 }
 
+.game_thumb:hover {
+    transform: translateY(-0.4rem);
+    transition: 0.5s;
+}
+
 
 @media screen and (min-width:992px) and (max-width:1200px){
     
