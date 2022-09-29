@@ -278,3 +278,42 @@ footer {
     display: inline-block;
 
 }
+
+@media screen and (min-width:992px) and (max-width:1200px){
+    
+    .playstationplus_elements {
+        padding: 0;
+    }
+
+    .playstationplus_logo {
+        width: 200px;
+    }
+
+    .playstationplus_caption {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+    
+    .playstationplus_elements {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .playstationplus_logo {
+        width: 200px;
+    }
+
+    .playstationplus_caption {
+        font-size: 15px;
+    }
+
+    .playstationplus_button {
+        width: 150;
+        padding: 5px;
+        font-size: 13px;
+    }
+
+}
