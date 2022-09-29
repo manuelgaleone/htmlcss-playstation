@@ -362,6 +362,43 @@ footer {
     cursor: pointer;
 }
 
+.returnal-1:hover > img{
+    transform: translateY(-0.4rem);
+    transition: 0.5s;
+
+}
+
+.returnal-2:hover > img{
+    transform: translateY(-0.4rem);
+    transition: 0.5s;
+
+}
+
+.returnal-3:hover > img{
+    transform: translateY(-0.4rem);
+    transition: 0.5s;
+
+}
+
+.crash-1:hover > img{
+    transform: translateY(-0.4rem);
+    transition: 0.5s;
+
+}
+
+.crash-2:hover > img{
+    transform: translateY(-0.4rem);
+    transition: 0.5s;
+
+}
+
+.crash-3:hover > img{
+    transform: translateY(-0.4rem);
+    transition: 0.5s;
+
+}
+
+
 @media screen and (min-width:992px) and (max-width:1200px){
     
     .playstationplus_elements {
