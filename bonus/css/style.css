@@ -60,6 +60,13 @@ header {
     box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
 }
 
+.dropdown_section {
+    background-color: white;
+    height: 200px;
+    display: none;
+    position: relative;
+}
+
 .header_up {
     padding: 5px;
 }
@@ -273,10 +280,86 @@ footer {
     font-size: 12px;
 }
 
-/*Effects*/
-.nav-link:hover > .blue_arrow {
+.arrows {
     display: inline-block;
+}
 
+/*Effects*/
+.arrows:hover > .gray_arrow {
+    display: none;
+}
+
+.arrows:hover > .blue_arrow {
+    display: inline-block;
+}
+
+.controller:hover {
+    border-bottom: 2px solid #2D64E6;
+    cursor: pointer;
+
+}
+
+.controller:hover > .thumb_disabled {
+    opacity: 1;
+    transition: 0.3s;
+    
+}
+
+.controller:hover > .thumb_name{
+    color: black;
+    transition: 0.3s;
+}
+
+.telecomando:hover {
+    border-bottom: 2px solid #2D64E6;
+    cursor: pointer;
+}
+
+.telecomando:hover > .thumb_disabled {
+    opacity: 1;
+    transition: 0.3s;
+    
+}
+
+.telecomando:hover > .thumb_name{
+    color: black;
+    transition: 0.3s;
+}
+
+.cuffie:hover {
+    border-bottom: 2px solid #2D64E6;
+    cursor: pointer;
+}
+
+.cuffie:hover > .thumb_disabled {
+    opacity: 1;
+    transition: 0.3s;
+    
+}
+
+.cuffie:hover > .thumb_name{
+    color: black;
+    transition: 0.3s;
+}
+
+.telecamera:hover {
+    border-bottom: 2px solid #2D64E6;
+    cursor: pointer;
+}
+
+.telecamera:hover > .thumb_disabled {
+    opacity: 1;
+    transition: 0.3s;
+    
+}
+
+.telecamera:hover > .thumb_name{
+    color: black;
+    transition: 0.3s;
+}
+
+.row > .col-4, .col-2, .col-6 {
+    cursor: pointer;
 }
 
 @media screen and (min-width:992px) and (max-width:1200px){
