@@ -403,6 +403,18 @@ footer {
     transition: 0.5s;
 }
 
+.playstationplus_button:hover {
+        border: 1px solid rgb(255, 255, 255); 
+        outline: 1px solid rgb(118, 118, 118);
+        transition: 0.9s;
+}
+
+.accedi_button:hover {
+    border: 1px solid rgb(255, 255, 255); 
+    outline: 1px solid rgb(118, 118, 118);
+    transition: 0.9s;
+}
+
 
 @media screen and (min-width:992px) and (max-width:1200px){
     
