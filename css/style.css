@@ -53,6 +53,13 @@ img {
 }
 
 /*Header*/
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+}
+
 .header_up {
     padding: 5px;
 }
@@ -69,6 +76,10 @@ img {
     width: 10px;
 }
 
+.blue_arrow {
+    display: none;
+    width: 10px;
+}
 
 /*Main*/
 .cover {
@@ -187,11 +198,9 @@ img {
 .playstationplus {
     background-color: #BEBCBB;
 }
-
 .playstationplus_caption {
     font-size: 20px;
 }
-
 .playstationplus_button {
     display: inline-block;
     background-color: #D9DADC;
@@ -260,18 +269,22 @@ footer {
     font-size: 12px;
 }
 
-@media screen and (min-width:768px) and (max-width:1440px) {
- 
-    .soulstorm {
-        display: inline-block;
+/*Effects*/
+.nav-link:hover > .blue_arrow {
+    display: inline-block;
 
-    }
+}
+
+@media screen and (min-width:768px) and (max-width:1440px) {
 
     .avengers {
         display: inline-block;
 
     }
 
+    .soulstorm {
+        display: inline-block;
+    }
 
 }
 
@@ -281,12 +294,12 @@ footer {
         font-size: 20px;
     }
 
-    .soulstorm {
-        display: none;
-    }
-
     .avengers {
         display: none;
     }
 
+
+    .soulstorm {
+        display: none;
+    }
 }
