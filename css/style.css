@@ -82,6 +82,10 @@ header {
 }
 
 /*Main*/
+.cover_section {
+    padding-top: 90px;
+}
+
 .cover {
     background-image: url(../img/jumbo-bg.png);
     padding: 50px;
@@ -273,36 +277,4 @@ footer {
 .nav-link:hover > .blue_arrow {
     display: inline-block;
 
-}
-
-@media screen and (min-width:768px) and (max-width:1440px) {
-
-    .avengers {
-        display: inline-block;
-
-    }
-
-    .soulstorm {
-        display: inline-block;
-        max-width: 100%;
-        height: auto;
-    }
-
-
-}
-
-@media screen and (min-width:570px) and (max-width:767px) {
-    
-    .playstation_caption {
-        font-size: 20px;
-    }
-
-    .avengers {
-        display: none;
-    }
-
-
-    .soulstorm {
-        display: none;
-    }
 }
