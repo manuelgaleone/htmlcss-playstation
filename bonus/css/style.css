@@ -243,6 +243,10 @@ header {
     background-color: #161C3B;
 }
 
+.carousel {
+    padding-top: 45px;
+}
+
 .playstationnow_button {
     display: inline-block;
     background-color: #D9DADC;
