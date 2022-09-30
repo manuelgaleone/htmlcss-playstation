@@ -89,13 +89,9 @@ header {
 }
 
 /*Main*/
-.cover_section {
-    padding-top: 90px;
-}
-
 .cover {
+    padding: 150px;
     background-image: url(../img/jumbo-bg.png);
-    padding: 50px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
