@@ -63,7 +63,7 @@ header {
 .dropdown_section {
     background-color: white;
     height: 200px;
-    display: none;
+
     position: relative;
 }
 
@@ -407,6 +407,12 @@ footer {
         border: 1px solid rgb(255, 255, 255); 
         outline: 1px solid rgb(118, 118, 118);
         transition: 0.9s;
+}
+
+.playstationnow_button:hover {
+    border: 1px solid rgb(255, 255, 255); 
+    outline: 1px solid rgb(118, 118, 118);
+    transition: 0.9s;
 }
 
 .accedi_button:hover {
